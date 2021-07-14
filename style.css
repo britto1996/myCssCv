@@ -1,0 +1,145 @@
+
+
+ body {
+     margin: 0px;
+ }
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 90px;
+}
+
+h3 {
+    color: #11999e;
+}
+
+a {
+    text-decoration: none;
+    color: #11999e;
+}
+
+.main__container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+.top__container {
+    position: relative;
+    scroll-snap-align: start;
+}
+
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #B5EAEA;
+     font-family: 'Dancing Script',
+     cursive;
+     transform: translate(-50%, -50%);
+}
+
+
+.title > p {
+    text-align: center;
+     font-family: 'Festive',
+     cursive;
+     font-size: 20px;
+    color: #B5EAEA;
+    letter-spacing: 2px;
+}
+
+.middle__container {
+    text-align: center;
+}
+
+.middle__container {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.info {
+    padding: 25px;
+}
+.profile {
+    border-radius: 50%;
+}
+
+.middle__container > .info {
+    font-family: 'Dancing Script',
+    cursive;
+    font-size: 20px;
+    text-align: left;
+   
+}
+
+.myProjects{
+    width: 100%;
+    margin: 100px auto 100px auto;
+}
+
+
+
+.project1,
+.project2 {
+    max-width: 100%;
+    text-align: center;
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.project1:hover{
+    opacity: 0.5;
+}
+
+.project2:hover{
+    opacity: 0.5;
+}
+
+.project1__head,
+.project2__head {
+    text-align: left;
+    padding: 25px;
+}
+
+ 
+
+
+
+
+
+
+.crud__app__info,
+.site__info {
+     font-family: 'Dancing Script',
+     cursive;
+     font-size: 20px;
+     line-height: 2;
+     text-align: left;
+     padding: 25px;
+}
+
+
+.bottom__container {
+    background-color: #334257;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
